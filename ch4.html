@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="p1">hello</p>
+    <input type="button" value="show" onclick="btn_click()">
+    <script>
+            // document.write("上一次更新的日期:<b>"+document.lastModified+"</b>")
+            function btn_click(){
+                var p1 = document.getElementById("p1");
+                var m2 = parseFloat(3.14 * 10.0 * 10.0);
+                parseFloat(m2);
+                p1.textContent = "半径为10米的圆的面积是"+m2+"平方米"
+                alert("上一次更新的日期:"+document.lastModified)
+            }
+            
+        
+    </script>
+</body>
+</html>
